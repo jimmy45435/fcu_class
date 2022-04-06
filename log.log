@@ -1,0 +1,10 @@
+20220405 02:15:24 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220405 02:15:24 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8495
+20220405 02:15:24 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1668
+20220405 02:15:25 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220405 02:15:25 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220405 02:15:25 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220405 02:15:25 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220405 02:15:25 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1561
+20220405 02:15:25 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 8731
+20220405 02:15:25 | INFO    | login.py  [line:34] - 登入成功
