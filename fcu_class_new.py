@@ -1,27 +1,9 @@
-from socket import timeout
 import requests
 from PIL import Image
 from bs4 import BeautifulSoup
 from re import search,compile
 from time import sleep,strftime
 from json import load
-class LINE():
-    def __init__(self,token):
-        self.token = token
-
-    def sendmsg(self,msg):
-        datetime = strftime('[%H:%M:%S]')
-        print(f'{datetime} : {msg}')
-        if self.token == '':
-            return
-        headers = {
-            "Authorization": "Bearer " + self.token, 
-            "Content-Type" : "application/x-www-form-urlencoded"
-        }
-        payload = {'message': msg}
-        
-        r = requests.post("https://notify-api.line.me/api/notify", headers = headers, params = payload,timeout = 5)
-        return r.status_code
 
 class Login:
     def __init__(self,request,NID,PASSWORD):
@@ -96,7 +78,6 @@ class Login:
         self.take_codeimg()
         self.code2text()
         self.grub_url_data()
-        line.sendmsg(f'搶課系統登入成功  NID : {self.nid}')
         return self.login()
 
 class fcuk_fcu:
@@ -139,12 +120,11 @@ class fcuk_fcu:
 
     def run(self):
         for code in self.classcode:
-            line.sendmsg(f'正在加選 {code}')
             self.make_data(self.find_classid(code))
             self.geturl()
             self.post_class()
             if self.msg() == True:
-                line.sendmsg(f'恭喜加選成功 {code}')
+                
                 self.classcode.remove(code)
                 return True
             elif self.msg() == 'Error':
@@ -159,8 +139,6 @@ if __name__ == '__main__':
         class_code = TNPC['classcode']
     while True:
         try:
-            line = LINE(token)
-            
             no = True
             while no:
                 request = requests.Session()

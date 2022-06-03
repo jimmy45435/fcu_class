@@ -1,8 +1,6 @@
-import requests
-from core.login.login import Login
-
+import core.fcu as fcu 
 if __name__ == "__main__":
-    request = requests.Session()
-    Login(request).start()
+    fcu.start()
+    
 
 

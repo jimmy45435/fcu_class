@@ -8,3 +8,809 @@
 20220405 02:15:25 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1561
 20220405 02:15:25 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 8731
 20220405 02:15:25 | INFO    | login.py  [line:34] - 登入成功
+20220603 03:01:41 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:01:41 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8829
+20220603 03:01:41 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1693
+20220603 03:01:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:01:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:01:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:01:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:01:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1586
+20220603 03:01:41 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:01:41 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service112-sds.fcu.edu.tw:443
+20220603 03:01:42 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "GET /?guid=767a60e33e0c47efa21a54fd63fad4bd&lang=zh-tw HTTP/1.1" 200 33217
+20220603 03:01:42 | INFO    | login.py  [line:41] - 登入成功
+20220603 03:02:11 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:02:11 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8814
+20220603 03:02:11 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1739
+20220603 03:02:11 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:02:11 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:02:11 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:02:11 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:02:11 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1632
+20220603 03:02:11 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:02:11 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service128-sds.fcu.edu.tw:443
+20220603 03:02:11 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "GET /?guid=308eabcadb6d4694a5773158ed2c3c68&lang=zh-tw HTTP/1.1" 200 33209
+20220603 03:02:11 | INFO    | login.py  [line:41] - 登入成功
+20220603 03:02:16 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "POST /?guid=308eabcadb6d4694a5773158ed2c3c68&lang=zh-tw HTTP/1.1" 200 33321
+20220603 03:02:53 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:02:53 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8839
+20220603 03:02:53 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1638
+20220603 03:02:53 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:02:53 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:02:53 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:02:53 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:02:53 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1531
+20220603 03:02:54 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:02:54 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service115-sds.fcu.edu.tw:443
+20220603 03:02:54 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "GET /?guid=bbd518b4872e4989a4709329f33dcbf8&lang=zh-tw HTTP/1.1" 200 33186
+20220603 03:02:54 | INFO    | login.py  [line:41] - 登入成功
+20220603 03:02:55 | Level 5 | api.py  [line:151] - Detected declarative mark in sequence. Priority +1 given for utf_8.
+20220603 03:02:55 | Level 5 | api.py  [line:276] - Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+20220603 03:02:55 | Level 5 | api.py  [line:398] - utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+20220603 03:02:55 | Level 5 | api.py  [line:432] - We detected language [('Simple English', 1.0), ('Norwegian', 1.0), ('German', 1.0), ('English', 0.99), ('Dutch', 0.9875), ('Indonesian', 0.9667)] using utf_8
+20220603 03:02:55 | DEBUG   | api.py  [line:452] - Encoding detection: utf_8 is most likely the one.
+20220603 03:03:05 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "POST /?guid=bbd518b4872e4989a4709329f33dcbf8&lang=zh-tw HTTP/1.1" 200 33169
+20220603 03:03:34 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:03:34 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8825
+20220603 03:03:34 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1594
+20220603 03:03:34 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:03:34 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:03:34 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:03:34 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:03:34 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1487
+20220603 03:03:34 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:03:34 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service112-sds.fcu.edu.tw:443
+20220603 03:03:35 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "GET /?guid=42e8c046a7c34d19ad4a61a25dd2dfea&lang=zh-tw HTTP/1.1" 200 33192
+20220603 03:03:35 | INFO    | login.py  [line:41] - 登入成功
+20220603 03:03:37 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "POST /?guid=42e8c046a7c34d19ad4a61a25dd2dfea&lang=zh-tw HTTP/1.1" 200 33152
+20220603 03:06:01 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:06:01 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8822
+20220603 03:06:01 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1671
+20220603 03:06:01 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:06:01 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:06:01 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:06:01 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:06:01 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1564
+20220603 03:06:01 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:06:01 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service129-sds.fcu.edu.tw:443
+20220603 03:06:02 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "GET /?guid=77961d26c42445fc9be5f5e4e2c40efa&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:06:02 | INFO    | login.py  [line:41] - 登入成功
+20220603 03:06:04 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "POST /?guid=77961d26c42445fc9be5f5e4e2c40efa&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:06:13 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:06:13 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 7585
+20220603 03:06:13 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1582
+20220603 03:06:18 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:06:18 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8826
+20220603 03:06:18 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1668
+20220603 03:06:18 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:06:18 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:06:18 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:06:18 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:06:18 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1561
+20220603 03:06:18 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:06:18 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service115-sds.fcu.edu.tw:443
+20220603 03:06:19 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "GET /?guid=98b9df0a2f9b49e78fd9c6db75b86b30&lang=zh-tw HTTP/1.1" 200 33221
+20220603 03:06:19 | INFO    | login.py  [line:41] - 登入成功
+20220603 03:06:19 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "POST /?guid=98b9df0a2f9b49e78fd9c6db75b86b30&lang=zh-tw HTTP/1.1" 200 33199
+20220603 03:06:21 | Level 5 | api.py  [line:151] - Detected declarative mark in sequence. Priority +1 given for utf_8.
+20220603 03:06:21 | Level 5 | api.py  [line:276] - Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+20220603 03:06:21 | Level 5 | api.py  [line:398] - utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+20220603 03:06:21 | Level 5 | api.py  [line:432] - We detected language [('Simple English', 1.0), ('Norwegian', 1.0), ('German', 1.0), ('English', 0.99), ('Dutch', 0.9875), ('Indonesian', 0.9667)] using utf_8
+20220603 03:06:21 | DEBUG   | api.py  [line:452] - Encoding detection: utf_8 is most likely the one.
+20220603 03:09:44 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:09:44 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8829
+20220603 03:09:44 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1621
+20220603 03:09:44 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:09:44 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:09:44 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:09:44 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:09:44 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1514
+20220603 03:09:44 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:09:44 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service116-sds.fcu.edu.tw:443
+20220603 03:09:44 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "GET /?guid=b501378311c14efdb5f8b5289247af3c&lang=zh-tw HTTP/1.1" 200 35721
+20220603 03:09:44 | INFO    | login.py  [line:41] - 登入成功
+20220603 03:09:46 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "POST /?guid=b501378311c14efdb5f8b5289247af3c&lang=zh-tw HTTP/1.1" 200 35773
+20220603 03:10:19 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:10:19 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8850
+20220603 03:10:19 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1635
+20220603 03:10:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:10:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:10:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:10:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:10:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1528
+20220603 03:10:19 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7824
+20220603 03:10:19 | INFO    | login.py  [line:41] - 登入成功
+20220603 03:10:20 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 178
+20220603 03:10:20 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /error.htm?aspxerrorpath=/Login.aspx HTTP/1.1" 200 349
+20220603 03:10:35 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:10:35 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8828
+20220603 03:10:35 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1699
+20220603 03:10:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:10:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:10:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:10:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:10:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1592
+20220603 03:10:35 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:10:35 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service128-sds.fcu.edu.tw:443
+20220603 03:10:35 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "GET /?guid=618258c60fc34915b465b85daf9f2e89&lang=zh-tw HTTP/1.1" 200 33159
+20220603 03:10:35 | INFO    | login.py  [line:41] - 登入成功
+20220603 03:10:36 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "POST /?guid=618258c60fc34915b465b85daf9f2e89&lang=zh-tw HTTP/1.1" 200 33242
+20220603 03:11:44 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:11:44 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8833
+20220603 03:11:45 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1596
+20220603 03:11:45 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:11:45 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:11:45 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:11:45 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:11:45 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1489
+20220603 03:11:45 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7812
+20220603 03:11:45 | INFO    | login.py  [line:41] - 登入成功
+20220603 03:14:23 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:14:23 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8842
+20220603 03:14:23 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1660
+20220603 03:14:23 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:14:23 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:14:23 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:14:23 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:14:23 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1553
+20220603 03:14:23 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:14:23 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service127-sds.fcu.edu.tw:443
+20220603 03:14:24 | DEBUG   | connectionpool.py  [line:465] - https://service127-sds.fcu.edu.tw:443 "GET /?guid=8f4f1713de6e4ec4957be69c1b016e85&lang=zh-tw HTTP/1.1" 200 33218
+20220603 03:14:24 | INFO    | login.py  [line:41] - 登入成功
+20220603 03:25:53 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:25:54 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8821
+20220603 03:25:54 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1656
+20220603 03:25:54 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:25:54 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:25:54 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:25:54 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:25:54 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1549
+20220603 03:25:54 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:25:54 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service116-sds.fcu.edu.tw:443
+20220603 03:25:54 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "GET /?guid=b99f7061f1534f40a46379f7d1e48d31&lang=zh-tw HTTP/1.1" 200 33194
+20220603 03:25:54 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:26:05 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:26:05 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8823
+20220603 03:26:05 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1613
+20220603 03:26:05 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:26:05 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:26:05 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:26:05 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:26:05 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1506
+20220603 03:26:05 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7824
+20220603 03:26:05 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:26:18 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:26:18 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8819
+20220603 03:26:18 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1656
+20220603 03:26:18 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:26:18 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:26:18 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:26:18 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:26:18 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1549
+20220603 03:26:18 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:26:18 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service112-sds.fcu.edu.tw:443
+20220603 03:26:18 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "GET /?guid=5f12e853f59a443284c41d3b6c4605b2&lang=zh-tw HTTP/1.1" 200 33262
+20220603 03:26:18 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:27:36 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:27:38 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8828
+20220603 03:27:38 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1631
+20220603 03:27:38 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:27:38 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:27:38 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:27:38 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:27:38 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1524
+20220603 03:27:39 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:27:39 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service128-sds.fcu.edu.tw:443
+20220603 03:27:40 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "GET /?guid=e46e4375fcdd46d1a208002e9e6c6d78&lang=zh-tw HTTP/1.1" 200 33220
+20220603 03:27:40 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:29:02 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:29:02 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8839
+20220603 03:29:03 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1598
+20220603 03:29:03 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:29:03 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:29:03 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:29:03 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:29:03 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1491
+20220603 03:29:03 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:29:03 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service115-sds.fcu.edu.tw:443
+20220603 03:29:07 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "GET /?guid=d2ef10460b9d4dbdbaa70bcbf7eb14b2&lang=zh-tw HTTP/1.1" 200 33210
+20220603 03:29:07 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:29:21 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:29:21 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8833
+20220603 03:29:21 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1649
+20220603 03:29:21 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:29:21 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:29:21 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:29:21 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:29:21 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1542
+20220603 03:29:21 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:29:21 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service116-sds.fcu.edu.tw:443
+20220603 03:29:22 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "GET /?guid=084fe75fceea4bfbb695fd2a88590ed3&lang=zh-tw HTTP/1.1" 200 33193
+20220603 03:29:22 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:29:49 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:29:49 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8839
+20220603 03:29:49 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1658
+20220603 03:29:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:29:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:29:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:29:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:29:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1551
+20220603 03:29:49 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:29:49 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service112-sds.fcu.edu.tw:443
+20220603 03:29:49 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "GET /?guid=dc1f71b90c3744819c9e8f72c5ba8f5b&lang=zh-tw HTTP/1.1" 200 33245
+20220603 03:29:49 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:29:52 | Level 5 | api.py  [line:151] - Detected declarative mark in sequence. Priority +1 given for utf_8.
+20220603 03:29:52 | Level 5 | api.py  [line:276] - Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+20220603 03:29:52 | Level 5 | api.py  [line:398] - utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+20220603 03:29:52 | Level 5 | api.py  [line:432] - We detected language [('Simple English', 1.0), ('Norwegian', 1.0), ('German', 1.0), ('English', 0.99), ('Dutch', 0.9875), ('Indonesian', 0.9667)] using utf_8
+20220603 03:29:52 | DEBUG   | api.py  [line:452] - Encoding detection: utf_8 is most likely the one.
+20220603 03:29:54 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=dc1f71b90c3744819c9e8f72c5ba8f5b&lang=zh-tw HTTP/1.1" 302 168
+20220603 03:29:54 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "GET /error.htm?aspxerrorpath=/NetPreSelect.aspx HTTP/1.1" 200 349
+20220603 03:30:13 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:30:13 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8836
+20220603 03:30:13 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1651
+20220603 03:30:13 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:30:13 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:30:13 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:30:13 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:30:13 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1544
+20220603 03:30:13 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:30:13 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service129-sds.fcu.edu.tw:443
+20220603 03:30:13 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "GET /?guid=138dc8397bc64ac9a1e34e87df6b2ec9&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:30:13 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:33:07 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:33:07 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8835
+20220603 03:33:07 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1679
+20220603 03:33:07 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:33:07 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:33:07 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:33:07 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:33:07 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1572
+20220603 03:33:07 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:33:07 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service129-sds.fcu.edu.tw:443
+20220603 03:33:07 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "GET /?guid=12b375dcaee24a6d989db74a7dffc255&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:33:07 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:33:09 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=12b375dcaee24a6d989db74a7dffc255&lang=zh-tw HTTP/1.1" 302 168
+20220603 03:33:09 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "GET /error.htm?aspxerrorpath=/NetPreSelect.aspx HTTP/1.1" 200 232
+20220603 03:34:41 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:34:41 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8839
+20220603 03:34:41 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1686
+20220603 03:34:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:34:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:34:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:34:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:34:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1579
+20220603 03:34:41 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:34:41 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service112-sds.fcu.edu.tw:443
+20220603 03:34:42 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "GET /?guid=b64224b0fc134869bed2d178a8fc2da9&lang=zh-tw HTTP/1.1" 200 33217
+20220603 03:34:42 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:34:46 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=b64224b0fc134869bed2d178a8fc2da9&lang=zh-tw HTTP/1.1" 302 168
+20220603 03:34:46 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "GET /error.htm?aspxerrorpath=/NetPreSelect.aspx HTTP/1.1" 200 349
+20220603 03:35:25 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:35:25 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8820
+20220603 03:35:25 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1534
+20220603 03:35:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:35:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:35:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:35:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:35:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1427
+20220603 03:35:26 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:35:26 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service127-sds.fcu.edu.tw:443
+20220603 03:35:26 | DEBUG   | connectionpool.py  [line:465] - https://service127-sds.fcu.edu.tw:443 "GET /?guid=c3671235e56e41cbb09c57712c31bd09&lang=zh-tw HTTP/1.1" 200 33239
+20220603 03:35:26 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:35:27 | DEBUG   | connectionpool.py  [line:465] - https://service127-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=c3671235e56e41cbb09c57712c31bd09&lang=zh-tw HTTP/1.1" 302 168
+20220603 03:35:27 | DEBUG   | connectionpool.py  [line:465] - https://service127-sds.fcu.edu.tw:443 "GET /error.htm?aspxerrorpath=/NetPreSelect.aspx HTTP/1.1" 200 349
+20220603 03:35:35 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:35:35 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8835
+20220603 03:35:35 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1550
+20220603 03:35:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:35:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:35:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:35:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:35:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1443
+20220603 03:35:35 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:35:35 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service115-sds.fcu.edu.tw:443
+20220603 03:35:35 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "GET /?guid=25def7339bc845d083389a20f54ca1d4&lang=zh-tw HTTP/1.1" 200 33206
+20220603 03:35:35 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:35:48 | Level 5 | api.py  [line:151] - Detected declarative mark in sequence. Priority +1 given for utf_8.
+20220603 03:35:48 | Level 5 | api.py  [line:276] - Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+20220603 03:35:49 | Level 5 | api.py  [line:398] - utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+20220603 03:35:49 | Level 5 | api.py  [line:432] - We detected language [('Simple English', 1.0), ('Norwegian', 1.0), ('German', 1.0), ('English', 0.99), ('Dutch', 0.9875), ('Indonesian', 0.9667)] using utf_8
+20220603 03:35:49 | DEBUG   | api.py  [line:452] - Encoding detection: utf_8 is most likely the one.
+20220603 03:35:52 | Level 5 | api.py  [line:151] - Detected declarative mark in sequence. Priority +1 given for utf_8.
+20220603 03:35:52 | Level 5 | api.py  [line:276] - Code page utf_8 is a multi byte encoding table and it appear that at least one character was encoded using n-bytes.
+20220603 03:35:52 | Level 5 | api.py  [line:398] - utf_8 passed initial chaos probing. Mean measured chaos is 0.000000 %
+20220603 03:35:52 | Level 5 | api.py  [line:432] - We detected language [('Simple English', 1.0), ('Norwegian', 1.0), ('German', 1.0), ('English', 0.99), ('Dutch', 0.9875), ('Indonesian', 0.9667)] using utf_8
+20220603 03:35:52 | DEBUG   | api.py  [line:452] - Encoding detection: utf_8 is most likely the one.
+20220603 03:35:56 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=25def7339bc845d083389a20f54ca1d4&lang=zh-tw HTTP/1.1" 302 168
+20220603 03:35:57 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "GET /error.htm?aspxerrorpath=/NetPreSelect.aspx HTTP/1.1" 200 349
+20220603 03:37:55 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:37:55 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8824
+20220603 03:37:55 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1609
+20220603 03:37:55 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:37:55 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:37:55 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:37:55 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:37:55 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1502
+20220603 03:37:56 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:37:56 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service129-sds.fcu.edu.tw:443
+20220603 03:37:56 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "GET /?guid=68bbfb8fbbd64bb386f20a4c97a35f32&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:37:56 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:37:57 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=68bbfb8fbbd64bb386f20a4c97a35f32&lang=zh-tw HTTP/1.1" 302 168
+20220603 03:37:57 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "GET /error.htm?aspxerrorpath=/NetPreSelect.aspx HTTP/1.1" 200 232
+20220603 03:38:21 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:38:21 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8827
+20220603 03:38:21 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1642
+20220603 03:38:21 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:38:21 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:38:21 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:38:21 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:38:21 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1535
+20220603 03:38:21 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:38:22 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service116-sds.fcu.edu.tw:443
+20220603 03:38:22 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "GET /?guid=267be5123755431ea60f6fcd5e6f9558&lang=zh-tw HTTP/1.1" 200 34875
+20220603 03:38:22 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:38:25 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=267be5123755431ea60f6fcd5e6f9558&lang=zh-tw HTTP/1.1" 302 168
+20220603 03:38:25 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "GET /error.htm?aspxerrorpath=/NetPreSelect.aspx HTTP/1.1" 200 349
+20220603 03:43:16 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:43:16 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8820
+20220603 03:43:16 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1651
+20220603 03:43:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:43:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:43:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:43:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:43:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1544
+20220603 03:43:16 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:43:16 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service128-sds.fcu.edu.tw:443
+20220603 03:43:16 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "GET /?guid=53757ffdaef04f4a9831e4cdcdfdcecd&lang=zh-tw HTTP/1.1" 200 34840
+20220603 03:43:16 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:43:16 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=53757ffdaef04f4a9831e4cdcdfdcecd&lang=zh-tw HTTP/1.1" 200 35862
+20220603 03:43:47 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:43:47 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8841
+20220603 03:43:47 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1616
+20220603 03:43:48 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:43:48 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:43:48 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:43:48 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:43:48 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1509
+20220603 03:43:48 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:43:48 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service115-sds.fcu.edu.tw:443
+20220603 03:43:48 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "GET /?guid=66d5e598933d48f3a3bb72409739cee0&lang=zh-tw HTTP/1.1" 200 34790
+20220603 03:43:48 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:43:48 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=66d5e598933d48f3a3bb72409739cee0&lang=zh-tw HTTP/1.1" 302 168
+20220603 03:43:48 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "GET /error.htm?aspxerrorpath=/NetPreSelect.aspx HTTP/1.1" 200 349
+20220603 03:43:56 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:43:56 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8827
+20220603 03:43:56 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1689
+20220603 03:43:56 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:43:56 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:43:56 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:43:56 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:43:56 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1582
+20220603 03:43:56 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7822
+20220603 03:43:56 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:43:56 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7794
+20220603 03:44:00 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:44:00 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8839
+20220603 03:44:00 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1634
+20220603 03:44:00 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:44:00 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:44:00 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:44:00 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:44:00 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1527
+20220603 03:44:00 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:44:00 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service116-sds.fcu.edu.tw:443
+20220603 03:44:01 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "GET /?guid=4e042808c67942d78e1ca00f8835e25f&lang=zh-tw HTTP/1.1" 200 34864
+20220603 03:44:01 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:44:01 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=4e042808c67942d78e1ca00f8835e25f&lang=zh-tw HTTP/1.1" 200 35931
+20220603 03:44:08 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:44:08 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8837
+20220603 03:44:08 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1640
+20220603 03:44:08 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:44:08 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:44:08 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:44:08 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:44:08 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1533
+20220603 03:44:08 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:44:08 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service112-sds.fcu.edu.tw:443
+20220603 03:44:09 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "GET /?guid=1218e79fc286451b8c501233195d02ad&lang=zh-tw HTTP/1.1" 200 34849
+20220603 03:44:09 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:44:09 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=1218e79fc286451b8c501233195d02ad&lang=zh-tw HTTP/1.1" 200 35851
+20220603 03:44:15 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:44:15 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8823
+20220603 03:44:15 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1630
+20220603 03:44:15 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:44:15 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:44:15 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:44:15 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:44:15 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1523
+20220603 03:44:15 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7819
+20220603 03:44:15 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:44:15 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7781
+20220603 03:44:19 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:44:19 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8841
+20220603 03:44:19 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1638
+20220603 03:44:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:44:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:44:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:44:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:44:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1531
+20220603 03:44:19 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7809
+20220603 03:44:19 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:44:19 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7780
+20220603 03:44:22 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:44:22 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8839
+20220603 03:44:22 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1589
+20220603 03:44:22 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:44:22 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:44:22 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:44:22 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:44:22 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1482
+20220603 03:44:22 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7828
+20220603 03:44:22 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:44:22 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7786
+20220603 03:44:25 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:44:26 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8845
+20220603 03:44:26 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1561
+20220603 03:44:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:44:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:44:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:44:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:44:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1454
+20220603 03:44:26 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:44:26 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service128-sds.fcu.edu.tw:443
+20220603 03:44:26 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "GET /?guid=bd0b152c937148e2ac439d53a50de02a&lang=zh-tw HTTP/1.1" 200 34878
+20220603 03:44:26 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:44:26 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=bd0b152c937148e2ac439d53a50de02a&lang=zh-tw HTTP/1.1" 200 35907
+20220603 03:44:49 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:44:49 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8835
+20220603 03:44:49 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1565
+20220603 03:44:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:44:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:44:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:44:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:44:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1458
+20220603 03:44:49 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:44:49 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service129-sds.fcu.edu.tw:443
+20220603 03:44:49 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "GET /?guid=b38fdc667f974dc69a815d25eed405a1&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:44:49 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:44:49 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=b38fdc667f974dc69a815d25eed405a1&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:44:57 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:44:57 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8838
+20220603 03:44:57 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1577
+20220603 03:44:57 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:44:57 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:44:57 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:44:57 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:44:57 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1470
+20220603 03:44:57 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:44:57 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service115-sds.fcu.edu.tw:443
+20220603 03:44:57 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "GET /?guid=960f12223bc94b4d9961cc9d7eab285d&lang=zh-tw HTTP/1.1" 200 34865
+20220603 03:44:57 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:44:57 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=960f12223bc94b4d9961cc9d7eab285d&lang=zh-tw HTTP/1.1" 302 168
+20220603 03:44:57 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "GET /error.htm?aspxerrorpath=/NetPreSelect.aspx HTTP/1.1" 200 349
+20220603 03:45:03 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:45:03 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8834
+20220603 03:45:03 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1667
+20220603 03:45:03 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:45:03 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:45:03 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:45:03 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:45:03 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1560
+20220603 03:45:03 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:45:03 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service116-sds.fcu.edu.tw:443
+20220603 03:45:03 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "GET /?guid=1b4a00fd61304c0fad9653ddffa72aa7&lang=zh-tw HTTP/1.1" 200 34992
+20220603 03:45:03 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:45:03 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=1b4a00fd61304c0fad9653ddffa72aa7&lang=zh-tw HTTP/1.1" 200 35840
+20220603 03:45:09 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:45:09 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8825
+20220603 03:45:09 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1601
+20220603 03:45:09 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:45:09 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:45:09 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:45:09 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:45:09 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1494
+20220603 03:45:09 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:45:09 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service112-sds.fcu.edu.tw:443
+20220603 03:45:09 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "GET /?guid=c4bef1bf445549668b8a81c47997e657&lang=zh-tw HTTP/1.1" 200 34809
+20220603 03:45:09 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:45:10 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=c4bef1bf445549668b8a81c47997e657&lang=zh-tw HTTP/1.1" 200 35896
+20220603 03:45:15 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:45:15 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8823
+20220603 03:45:15 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1688
+20220603 03:45:15 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:45:15 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:45:15 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:45:15 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:45:15 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1581
+20220603 03:45:15 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:45:15 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service127-sds.fcu.edu.tw:443
+20220603 03:45:16 | DEBUG   | connectionpool.py  [line:465] - https://service127-sds.fcu.edu.tw:443 "GET /?guid=e7cc610780c340b9a859de37222fb35f&lang=zh-tw HTTP/1.1" 200 34898
+20220603 03:45:16 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:45:16 | DEBUG   | connectionpool.py  [line:465] - https://service127-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=e7cc610780c340b9a859de37222fb35f&lang=zh-tw HTTP/1.1" 200 35928
+20220603 03:45:22 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:45:22 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8836
+20220603 03:45:22 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1618
+20220603 03:45:22 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:45:22 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:45:22 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:45:22 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:45:22 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1511
+20220603 03:45:22 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:45:22 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service128-sds.fcu.edu.tw:443
+20220603 03:45:22 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "GET /?guid=288215fb89f944e0bfda7a84bd279d16&lang=zh-tw HTTP/1.1" 200 34867
+20220603 03:45:22 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:45:22 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=288215fb89f944e0bfda7a84bd279d16&lang=zh-tw HTTP/1.1" 200 35889
+20220603 03:45:28 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:45:28 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8822
+20220603 03:45:28 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1637
+20220603 03:45:28 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:45:28 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:45:28 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:45:28 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:45:28 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1530
+20220603 03:45:28 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:45:28 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service129-sds.fcu.edu.tw:443
+20220603 03:45:28 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "GET /?guid=e1abf4a7628845d3b0783db975013d7a&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:45:28 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:45:29 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=e1abf4a7628845d3b0783db975013d7a&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:45:35 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:45:35 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8831
+20220603 03:45:35 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1688
+20220603 03:45:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:45:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:45:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:45:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:45:35 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1581
+20220603 03:45:35 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:45:35 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service115-sds.fcu.edu.tw:443
+20220603 03:45:35 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "GET /?guid=ef02fae1f1c94be7a84752c73d386979&lang=zh-tw HTTP/1.1" 200 34868
+20220603 03:45:35 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:45:36 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=ef02fae1f1c94be7a84752c73d386979&lang=zh-tw HTTP/1.1" 200 35841
+20220603 03:45:44 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:45:44 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8822
+20220603 03:45:44 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1654
+20220603 03:45:44 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:45:44 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:45:44 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:45:44 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:45:44 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1547
+20220603 03:45:44 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:45:44 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service116-sds.fcu.edu.tw:443
+20220603 03:45:44 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "GET /?guid=a4ffffc6892a445385e8250f04b771e9&lang=zh-tw HTTP/1.1" 200 34855
+20220603 03:45:44 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:45:44 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=a4ffffc6892a445385e8250f04b771e9&lang=zh-tw HTTP/1.1" 200 35285
+20220603 03:45:51 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:45:51 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8831
+20220603 03:45:51 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1743
+20220603 03:45:51 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:45:51 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:45:51 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:45:51 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:45:51 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1636
+20220603 03:45:51 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:45:51 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service112-sds.fcu.edu.tw:443
+20220603 03:45:51 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "GET /?guid=a1cbbaa14bf54b0489bd30cf6cfccc38&lang=zh-tw HTTP/1.1" 200 34915
+20220603 03:45:51 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:45:52 | DEBUG   | connectionpool.py  [line:465] - https://service112-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=a1cbbaa14bf54b0489bd30cf6cfccc38&lang=zh-tw HTTP/1.1" 200 35279
+20220603 03:45:55 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:45:55 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8833
+20220603 03:45:55 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1627
+20220603 03:45:55 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:45:55 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:45:55 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:45:55 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:45:55 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1520
+20220603 03:45:56 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:45:56 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service127-sds.fcu.edu.tw:443
+20220603 03:45:56 | DEBUG   | connectionpool.py  [line:465] - https://service127-sds.fcu.edu.tw:443 "GET /?guid=40fa2b2d31f94c4ba7646e7417d11b9b&lang=zh-tw HTTP/1.1" 200 34828
+20220603 03:45:56 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:45:56 | DEBUG   | connectionpool.py  [line:465] - https://service127-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=40fa2b2d31f94c4ba7646e7417d11b9b&lang=zh-tw HTTP/1.1" 200 35232
+20220603 03:46:02 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:46:02 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8819
+20220603 03:46:02 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1680
+20220603 03:46:02 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:46:02 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:46:02 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:46:02 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:46:02 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1573
+20220603 03:46:02 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:46:02 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service128-sds.fcu.edu.tw:443
+20220603 03:46:02 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "GET /?guid=ffffbb0a70cf4b51b5185acdcba505cb&lang=zh-tw HTTP/1.1" 200 34860
+20220603 03:46:03 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:46:03 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=ffffbb0a70cf4b51b5185acdcba505cb&lang=zh-tw HTTP/1.1" 200 34506
+20220603 03:46:12 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:46:12 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8835
+20220603 03:46:12 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1689
+20220603 03:46:12 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:46:12 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:46:12 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:46:12 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:46:12 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1582
+20220603 03:46:12 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7820
+20220603 03:46:12 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:46:12 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7785
+20220603 03:46:16 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:46:16 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8835
+20220603 03:46:16 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1614
+20220603 03:46:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:46:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:46:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:46:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:46:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1507
+20220603 03:46:16 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7817
+20220603 03:46:16 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:46:16 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7789
+20220603 03:46:19 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:46:19 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8835
+20220603 03:46:19 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1690
+20220603 03:46:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:46:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:46:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:46:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:46:19 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1583
+20220603 03:46:19 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7823
+20220603 03:46:19 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:46:19 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7773
+20220603 03:46:25 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:46:25 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8824
+20220603 03:46:25 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1718
+20220603 03:46:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:46:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:46:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:46:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:46:26 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1611
+20220603 03:46:26 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:46:26 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service129-sds.fcu.edu.tw:443
+20220603 03:46:26 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "GET /?guid=b587a77ee6ec458ea76cfe2386d63397&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:46:26 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:46:26 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=b587a77ee6ec458ea76cfe2386d63397&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:46:32 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:46:33 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8840
+20220603 03:46:33 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1646
+20220603 03:46:33 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:46:33 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:46:33 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:46:33 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:46:33 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1539
+20220603 03:46:33 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7821
+20220603 03:46:33 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:46:33 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7777
+20220603 03:46:42 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:46:42 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8835
+20220603 03:46:42 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1597
+20220603 03:46:42 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:46:42 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:46:42 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:46:42 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:46:42 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1490
+20220603 03:46:42 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:46:42 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service116-sds.fcu.edu.tw:443
+20220603 03:46:43 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "GET /?guid=5d2f2dbcedff42ed896475799d1e5aee&lang=zh-tw HTTP/1.1" 200 34869
+20220603 03:46:43 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:46:43 | DEBUG   | connectionpool.py  [line:465] - https://service116-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=5d2f2dbcedff42ed896475799d1e5aee&lang=zh-tw HTTP/1.1" 200 34538
+20220603 03:46:48 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:46:49 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8833
+20220603 03:46:49 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1651
+20220603 03:46:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:46:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:46:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:46:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:46:49 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1544
+20220603 03:46:49 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7832
+20220603 03:46:49 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:46:49 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7835
+20220603 03:46:52 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:46:52 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8824
+20220603 03:46:52 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1665
+20220603 03:46:52 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:46:52 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:46:52 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:46:52 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:46:52 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1558
+20220603 03:46:52 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:46:52 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service127-sds.fcu.edu.tw:443
+20220603 03:46:52 | DEBUG   | connectionpool.py  [line:465] - https://service127-sds.fcu.edu.tw:443 "GET /?guid=a7e46468194548dc9584fc6f9ef284e0&lang=zh-tw HTTP/1.1" 200 34850
+20220603 03:46:52 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:46:53 | DEBUG   | connectionpool.py  [line:465] - https://service127-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=a7e46468194548dc9584fc6f9ef284e0&lang=zh-tw HTTP/1.1" 200 34355
+20220603 03:46:59 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:46:59 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8830
+20220603 03:46:59 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1713
+20220603 03:46:59 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:46:59 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:46:59 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:46:59 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:46:59 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1606
+20220603 03:47:00 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:47:00 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service128-sds.fcu.edu.tw:443
+20220603 03:47:00 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "GET /?guid=0bc8d6ff43f441769aae6fb32f57881e&lang=zh-tw HTTP/1.1" 200 34858
+20220603 03:47:00 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:47:01 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=0bc8d6ff43f441769aae6fb32f57881e&lang=zh-tw HTTP/1.1" 302 168
+20220603 03:47:01 | DEBUG   | connectionpool.py  [line:465] - https://service128-sds.fcu.edu.tw:443 "GET /error.htm?aspxerrorpath=/NetPreSelect.aspx HTTP/1.1" 200 349
+20220603 03:47:08 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:47:08 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8833
+20220603 03:47:08 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1641
+20220603 03:47:08 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:47:08 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:47:08 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:47:08 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:47:08 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1534
+20220603 03:47:08 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7811
+20220603 03:47:08 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:47:08 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7836
+20220603 03:47:16 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:47:16 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8821
+20220603 03:47:16 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1638
+20220603 03:47:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:47:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:47:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:47:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:47:16 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1531
+20220603 03:47:16 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:47:16 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service129-sds.fcu.edu.tw:443
+20220603 03:47:17 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "GET /?guid=78a875121a164abfa80d7bda091928a5&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:47:17 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:47:17 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=78a875121a164abfa80d7bda091928a5&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:47:41 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:47:41 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8821
+20220603 03:47:41 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1649
+20220603 03:47:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:47:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:47:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:47:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:47:41 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1542
+20220603 03:47:41 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7825
+20220603 03:47:41 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:47:43 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7836
+20220603 03:47:48 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:47:48 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8836
+20220603 03:47:48 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1590
+20220603 03:47:48 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:47:48 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:47:48 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:47:48 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:47:48 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1483
+20220603 03:47:48 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7830
+20220603 03:47:48 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:47:50 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 200 7830
+20220603 03:47:57 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:47:57 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8823
+20220603 03:47:57 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1598
+20220603 03:47:57 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:47:57 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:47:57 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:47:57 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:47:57 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1491
+20220603 03:47:57 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:47:57 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service115-sds.fcu.edu.tw:443
+20220603 03:47:57 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "GET /?guid=8fd9a6fe53d14f589ee90910712081b3&lang=zh-tw HTTP/1.1" 200 34893
+20220603 03:47:57 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:48:04 | DEBUG   | connectionpool.py  [line:465] - https://service115-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=8fd9a6fe53d14f589ee90910712081b3&lang=zh-tw HTTP/1.1" 200 34374
+20220603 03:48:27 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:48:27 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8846
+20220603 03:48:27 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1668
+20220603 03:48:28 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:48:28 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:48:28 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:48:28 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:48:28 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1561
+20220603 03:48:28 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:48:28 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service127-sds.fcu.edu.tw:443
+20220603 03:48:28 | DEBUG   | connectionpool.py  [line:465] - https://service127-sds.fcu.edu.tw:443 "GET /?guid=ce87d2de35e64867bf9df3d5ace73125&lang=zh-tw HTTP/1.1" 200 33251
+20220603 03:48:28 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:48:31 | DEBUG   | connectionpool.py  [line:465] - https://service127-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=ce87d2de35e64867bf9df3d5ace73125&lang=zh-tw HTTP/1.1" 200 32639
+20220603 03:49:42 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): course.fcu.edu.tw:443
+20220603 03:49:42 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /Login.aspx HTTP/1.1" 200 8824
+20220603 03:49:42 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "GET /validateCode.aspx HTTP/1.1" 200 1673
+20220603 03:49:42 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IHDR' 16 13
+20220603 03:49:42 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'sRGB' 41 1
+20220603 03:49:42 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'gAMA' 54 4
+20220603 03:49:42 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'pHYs' 70 9
+20220603 03:49:42 | DEBUG   | PngImagePlugin.py  [line:213] - STREAM b'IDAT' 91 1566
+20220603 03:49:42 | DEBUG   | connectionpool.py  [line:465] - https://course.fcu.edu.tw:443 "POST /Login.aspx HTTP/1.1" 302 26063
+20220603 03:49:42 | DEBUG   | connectionpool.py  [line:1005] - Starting new HTTPS connection (1): service129-sds.fcu.edu.tw:443
+20220603 03:49:42 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "GET /?guid=514ed5613c494bc28a0a9ae024cd95a9&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:49:42 | INFO    | login.py  [line:42] - 登入成功
+20220603 03:49:44 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=514ed5613c494bc28a0a9ae024cd95a9&lang=zh-tw HTTP/1.1" 200 None
+20220603 03:49:46 | DEBUG   | connectionpool.py  [line:465] - https://service129-sds.fcu.edu.tw:443 "POST /NetPreSelect.aspx?guid=514ed5613c494bc28a0a9ae024cd95a9&lang=zh-tw HTTP/1.1" 200 None
