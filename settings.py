@@ -1,8 +1,12 @@
-USERNAME = 'D0848081'
-PASSWORD = 'JIMMYx134679x'
+from asyncio.log import logger
+import logging
 
 
-LOG_LEVEL = 0
+USERNAME = 'D0848579'
+PASSWORD = 'jAsOn0222'
+CLASSCODE = ["3106","3124"]
+
+LOG_LEVEL = logging.INFO
 LOG_FMT = '%(asctime)s | %(levelname)-7s | %(filename)s  [line:%(lineno)d] - %(message)s'
 #LOG_FMT = '%(asctime)s %(filename)s [line:%(lineno)d] %(levelname)s: %(message)s'
 LOG_DATEFMT = '%Y%m%d %H:%M:%S'

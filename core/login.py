@@ -1,3 +1,5 @@
+from email import header
+from wsgiref import headers
 from utils.log import logger
 from utils.http import get_requests_headers
 import requests
@@ -7,9 +9,10 @@ from bs4 import BeautifulSoup
 class Login():
     
     def __init__(self):
-        initurl = 'https://course.fcu.edu.tw/Login.aspx'
+        self.initurl = 'https://course.fcu.edu.tw/Login.aspx'
         self.request = requests.Session()
-        self.response = self.request.get(initurl,headers=get_requests_headers())
+        self.request.headers = get_requests_headers()
+        self.response = self.request.get(self.initurl)
         self.username,self.password = USERNAME,PASSWORD
 
     def save_validateCode(self):
@@ -39,6 +42,10 @@ class Login():
     def login(self):
         self.save_validateCode()
         self.response = self.request.post("https://course.fcu.edu.tw/Login.aspx",data=self.getdata())
+        if self.response.url == self.initurl:
+            logger.info('登入失敗')
+            self.response = self.request.get(self.initurl)
+            self.login()
         logger.info('登入成功')
 
 
