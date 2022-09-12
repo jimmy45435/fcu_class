@@ -26,7 +26,7 @@ class FCU_toolkit(Login):
         except:
             self.add_focus_class(classcode)
             logger.warning(f"{classcode}課程未關注")
-            return 'FOCUS'
+            return 'ERROR'
             
         
         data = {
@@ -36,20 +36,22 @@ class FCU_toolkit(Login):
             "__EVENTVALIDATION" : soup.find(id = '__EVENTVALIDATION')['value'],
             "__VIEWSTATEENCRYPTED": ''
         }
-
-        self.response = self.request.post(self.response.url,data=data)
-        soup = BeautifulSoup(self.response.text,'lxml')
-        msg2 = soup.find('span', id='ctl00_MainContent_TabContainer1_tabSelected_lblMsgBlock').getText()
-        
-        if msg2[0:4] == '加選成功':
-            logger.info(f'{msg2}({classcode})')
-            return True
-        elif msg2[0:6] == '系統偵測異常':
-            logger.warning(f'{msg2[0:6]}({classcode})')
+        try:
+            self.response = self.request.post(self.response.url,data=data)
+            soup = BeautifulSoup(self.response.text,'lxml')
+            msg2 = soup.find('span', id='ctl00_MainContent_TabContainer1_tabSelected_lblMsgBlock').getText()
+            
+            if msg2[0:4] == '加選成功':
+                logger.info(f'{msg2}({classcode})')
+                return True
+            elif msg2[0:6] == '系統偵測異常':
+                logger.warning(f'{msg2[0:6]}({classcode})')
+                return 'ERROR'
+            else:
+                logger.info(msg2)
+            return False
+        except:
             return 'ERROR'
-        else:
-            logger.info(msg2)
-        return False
     #搜尋課程
     def search_class(self,classcode):
         soup = BeautifulSoup(self.response.text,'lxml')
@@ -104,8 +106,10 @@ def start():
             f = FCU_toolkit()
             task = []
             for code in CLASSCODE:
-                # for i in range(3):
-                task.append(threading.Thread(target=for_in_add_class,args=(f,code,),name=f'{code}'))
+                for i in range(1):
+                    logger.info('建立多線程任務')
+                    task.append(threading.Thread(target=for_in_add_class,args=(f,code,),name=f'{code}'))
+            logger.info('線程任務開始')
             for i in range(len(task)):
                 task[i].start()
             for i in range(len(task)):
