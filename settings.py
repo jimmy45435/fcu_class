@@ -2,9 +2,9 @@ from asyncio.log import logger
 import logging
 
 
-USERNAME = 'D0848579'
-PASSWORD = 'jAsOn0222'
-CLASSCODE = ["3106","3124"]
+USERNAME = 'D0848081'
+PASSWORD = 'JIMMYx134679x'
+CLASSCODE = ["3124","3165","3166"]
 
 LOG_LEVEL = logging.INFO
 LOG_FMT = '%(asctime)s | %(levelname)-7s | %(filename)s  [line:%(lineno)d] - %(message)s'
