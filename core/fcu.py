@@ -1,6 +1,7 @@
-from settings import CLASSCODE
+from settings import CLASSCODE,token
 from utils.log import logger
 from core.login import Login
+from utils.line import lineNotifyMessage
 from bs4 import BeautifulSoup
 import sys
 import threading
@@ -43,6 +44,7 @@ class FCU_toolkit(Login):
             
             if msg2[0:4] == '加選成功':
                 logger.info(f'{msg2}({classcode})')
+                lineNotifyMessage(token, f'{msg2}({classcode})')
                 return True
             elif msg2[0:6] == '系統偵測異常':
                 logger.warning(f'{msg2[0:6]}({classcode})')
@@ -106,7 +108,7 @@ def start():
             f = FCU_toolkit()
             task = []
             for code in CLASSCODE:
-                for i in range(1):
+                for i in range(1): #單個課程線成數量
                     logger.info('建立多線程任務')
                     task.append(threading.Thread(target=for_in_add_class,args=(f,code,),name=f'{code}'))
             logger.info('線程任務開始')

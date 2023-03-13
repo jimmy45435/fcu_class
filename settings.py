@@ -1,15 +1,11 @@
 import logging
 import json
 
-with open('Setting.json','r') as f:
-    u = json.load(f)
-    CLASSCODE = u['CLASSCODE']
-#     USERNAME = u['USERNAME']
-#     PASSWORD = u['PASSWORD']
+USERNAME = 'D0000000'
+PASSWORD = ''
+CLASSCODE = ["2222"]  # ['1111','3333',....]
 
-USERNAME = 'D0848081'
-PASSWORD = 'JIMMYx134679x'
-# CLASSCODE = ["3165","3166"]
+token = '' #line 權杖 功能:通知搶課
 
 LOG_LEVEL = logging.INFO
 LOG_FMT = '%(asctime)s | %(levelname)-7s | %(filename)s  [line:%(lineno)d] - %(message)s'
